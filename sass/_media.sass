@@ -1,0 +1,329 @@
+@media (max-width: 1200px)
+  .container
+    margin-left: 20px
+    margin-right: 20px
+  body.lock 
+    overflow: hidden    /*блокируем прокрутку*/
+  
+  .top
+    &__slider
+      width: 600px
+      &-line
+        width: 80%
+      &-item
+      &-images
+        max-width: 480px
+  .swiper
+    width: 860px
+    height: 383.26px
+  
+  
+  
+@media (max-width: 1000px)
+  .container
+    max-width: 960px
+    margin-left: 20px
+    margin-right: 20px
+    &-header
+      padding: 0
+  body
+    padding-top: 69px
+  .header
+    &-mobile
+      &__fixed
+        position: fixed
+        left: 0
+        right: 0
+        top: 0
+        z-index: 99
+  .menu
+    display: none
+  .navbar.active
+    display: inline
+    position: fixed
+    left: 0
+    right: 0
+    top: auto
+    transition: all 0.5s ease 0s
+    z-index: 98 
+
+
+
+  .navbar-top__menu-button
+    display: inline
+  button
+    padding: 0
+    border: none
+    font: inherit
+    color: inherit
+    background-color: transparent
+    cursor: pointer
+  .header
+    &-button
+      border: none
+      outline: none
+      display: flex
+      width: 32px
+      height: 17px
+      align-items: center
+      justify-content: space-between
+      flex-direction: column
+      border: none
+      color: transparent
+      &__line
+        width: 32px
+        height: 1px
+        background-color: $White
+
+  .top
+    &__overhead
+      font-size: 13.33
+    &__title
+      font-size: 47.78px
+    &__slider
+      width: 420px
+      padding-top: 80px
+      &-item
+      &-images
+        max-width: 380px
+      &-line
+        width: 80%
+  .swiper
+    width: 560px
+    height: 249.57px
+    &-pagination
+      &-bullet
+        background-color: $Blue
+        width: 5px
+        height: 5px
+        &-active
+          height: 8px
+          width: 8px
+
+  .conditions
+    &-card
+      display: flex
+      flex-direction: column
+      align-items: center
+      
+  .card
+    margin-bottom: 48px
+    &-three
+      margin-bottom: 96px
+    
+
+  .contacts
+    &-wrapper
+      display: flex
+      flex-direction: column
+      align-items: center
+      margin-bottom: 100px
+    &-map
+      margin-bottom: 48px
+    &-card
+      margin-bottom: 96px
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+@media (max-width: 768px)
+  .container
+    max-width: 640px
+    margin-right: 32px
+    margin-left: 32px
+
+  .top
+    display: inline
+    &__heading
+      display: flex
+      flex-direction: column
+      align-items: center
+      padding: 0
+    &__slider
+      padding: 0
+      margin-bottom: 50px
+      &-btn
+        display: inline
+      &-bottom
+        display: none
+    &__content
+      padding-top: 80px
+      width: 100%
+      &-text
+        display: flex
+        flex-direction: column
+        align-items: center
+        margin: 0
+      &-btn
+        display: none
+    &__overhead
+      font-size: 19.2px
+    &__title
+      font-size: 68.8px
+    &__text
+      &-down
+        margin: 0
+        margin-bottom: 60px 
+
+  .swiper
+    width: 420px
+    height: 200px
+  .slider
+    &__next
+      right: 16px
+    &__prev
+      left: 16px
+
+  .contacts
+    &-map
+      &__box
+        width: 460px
+        height: 540px
+  
+  .footer
+    &-phone
+      display: none
+
+
+
+
+
+@media (max-width: 480px)
+  .container
+    max-width: 460px
+    margin-right: 10px
+    margin-left: 10px
+  .logo
+    &__link
+      display: none
+      &-small
+        display: inline
+  .phone
+    font-size: 13.33px
+  .header
+    &-button
+      width: 32px
+      height: 17px
+      &__line
+        width: 32px
+        height: 1px
+  
+
+  .top
+    display: inline
+    &__slider
+      padding: 0
+      margin-bottom: 50px
+      &-btn
+        display: inline
+    &__overhead
+      font-size: 16px
+    &__title
+      font-size: 57.33px
+    &__text
+      &-up
+        font-size: 9.26px        
+      &-down
+        font-size: 9.26px
+        margin: 0
+    &__btn
+      padding: 16px 118px
+    &__slider
+      width: 340px
+      padding-top: 80px
+      margin-bottom: 80px
+      &-images
+        max-width: 320px
+
+  .swiper
+    width: 100%
+    max-width: 460px
+    height: 640px
+
+  .conditions
+    &-title
+      font-size: 33.18px
+      line-height: 40px
+      margin-bottom: 8px
+    &-subtitle
+      width: 210px
+      font-size: 9.26px
+      line-height: 11px
+      margin: auto
+      margin-bottom: 64px
+    &-btn
+      padding: 16px 118px
+
+
+  .contacts
+    &-title
+      font-size: 33.18px
+      line-height: 40px
+      margin: 0
+      margin-top: 80px
+      margin-bottom: 80px
+    &-map
+      &__box
+        width: 100%
+        height: 540px
+    &-btn
+      padding: 16px 118px
+
+  .garage
+    display: inline
+
+  .projects
+    display: none
+
+  
+
+@media (max-width: 360px)
+  .container
+    max-width: 340px
+    margin-right: 5px
+    margin-left: 5px
+  .phone
+    font-size: 11.11px
+  .top
+    &__overhead
+      font-size: 13.33px
+    &__title
+      font-size: 47.78px
+    &__slider
+      width: 320px
+      padding-top: 120px
+      margin-bottom: 120px
+      &-images
+        max-width: 280px
+
+
+  .swiper
+    width: 100%
+    max-width: 340px
+    height: 477.18px
+
+  .conditions
+    &-title
+      font-size: 27.65px
+      line-height: 33px
+
+  .contacts
+    &-title
+      font-size: 27.65px
+      line-height: 33px
+      
+
+
+
+  .projects
+    display: none

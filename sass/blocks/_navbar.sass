@@ -1,0 +1,29 @@
+.navbar
+  display: none
+  top: -100%
+  background: $Black
+  padding-top: 16px
+  padding-bottom: 100%
+  &-inner
+    display: flex
+    justify-content: center
+    align-items: center
+  &-menu
+    &__list
+      display: flex
+      align-items: center
+      justify-content: flex-start
+      flex-direction: column
+  &-item
+    margin-bottom: 20px
+    &__link
+      color: $White
+      font-weight: 400
+      font-size: 16px
+      line-height: 24px
+      padding-bottom: 5px
+      transition: all 0.5s
+      border-bottom: 1px solid transparent
+    &-link:hover
+      border-bottom: 1px solid $White
+  
